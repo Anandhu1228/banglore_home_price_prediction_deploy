@@ -44,7 +44,7 @@ function getBathValue() {
   function onPageLoad() {
     console.log( "document loaded" );
     //var url = "http://127.0.0.1:5000/get_location_names_route";
-    var url = "https://www.pythonanywhere.com/user/anandhu1228/files/home/anandhu1228/banglore_home_price_prediction/server/server.py";
+    var url = "https://anandhu1228.pythonanywhere.com/get_location_names_route";
     //var url = "/api/get_location_names_route";  nginx url
     $.get(url,function(data, status) {
         console.log("got response for get_location_names request");
